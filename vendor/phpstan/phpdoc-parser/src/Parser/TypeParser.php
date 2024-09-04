@@ -848,7 +848,10 @@ class TypeParser
 
 		$items = [];
 		$sealed = true;
+<<<<<<< HEAD
 		$unsealedType = null;
+=======
+>>>>>>> origin/master
 
 		do {
 			$tokens->tryConsumeTokenType(Lexer::TOKEN_PHPDOC_EOL);
@@ -859,6 +862,7 @@ class TypeParser
 
 			if ($tokens->tryConsumeTokenType(Lexer::TOKEN_VARIADIC)) {
 				$sealed = false;
+<<<<<<< HEAD
 
 				$tokens->tryConsumeTokenType(Lexer::TOKEN_PHPDOC_EOL);
 				if ($tokens->isCurrentTokenType(Lexer::TOKEN_OPEN_ANGLE_BRACKET)) {
@@ -870,6 +874,8 @@ class TypeParser
 					$tokens->tryConsumeTokenType(Lexer::TOKEN_PHPDOC_EOL);
 				}
 
+=======
+>>>>>>> origin/master
 				$tokens->tryConsumeTokenType(Lexer::TOKEN_COMMA);
 				break;
 			}
@@ -882,7 +888,11 @@ class TypeParser
 		$tokens->tryConsumeTokenType(Lexer::TOKEN_PHPDOC_EOL);
 		$tokens->consumeTokenType(Lexer::TOKEN_CLOSE_CURLY_BRACKET);
 
+<<<<<<< HEAD
 		return new Ast\Type\ArrayShapeNode($items, $sealed, $kind, $unsealedType);
+=======
+		return new Ast\Type\ArrayShapeNode($items, $sealed, $kind);
+>>>>>>> origin/master
 	}
 
 
@@ -964,6 +974,7 @@ class TypeParser
 	/**
 	 * @phpstan-impure
 	 */
+<<<<<<< HEAD
 	private function parseArrayShapeUnsealedType(TokenIterator $tokens): Ast\Type\ArrayShapeUnsealedTypeNode
 	{
 		$startLine = $tokens->currentTokenLine();
@@ -1021,6 +1032,8 @@ class TypeParser
 	/**
 	 * @phpstan-impure
 	 */
+=======
+>>>>>>> origin/master
 	private function parseObjectShape(TokenIterator $tokens): Ast\Type\ObjectShapeNode
 	{
 		$tokens->consumeTokenType(Lexer::TOKEN_OPEN_CURLY_BRACKET);

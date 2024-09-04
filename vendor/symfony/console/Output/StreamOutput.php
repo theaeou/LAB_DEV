@@ -90,7 +90,11 @@ class StreamOutput extends Output
     protected function hasColorSupport(): bool
     {
         // Follow https://no-color.org/
+<<<<<<< HEAD
         if ('' !== (($_SERVER['NO_COLOR'] ?? getenv('NO_COLOR'))[0] ?? '')) {
+=======
+        if ('' !== ($_SERVER['NO_COLOR'] ?? getenv('NO_COLOR') ?: '')) {
+>>>>>>> origin/master
             return false;
         }
 

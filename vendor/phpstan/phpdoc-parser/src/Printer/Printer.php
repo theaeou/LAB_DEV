@@ -43,7 +43,10 @@ use PHPStan\PhpDocParser\Ast\PhpDoc\UsesTagValueNode;
 use PHPStan\PhpDocParser\Ast\PhpDoc\VarTagValueNode;
 use PHPStan\PhpDocParser\Ast\Type\ArrayShapeItemNode;
 use PHPStan\PhpDocParser\Ast\Type\ArrayShapeNode;
+<<<<<<< HEAD
 use PHPStan\PhpDocParser\Ast\Type\ArrayShapeUnsealedTypeNode;
+=======
+>>>>>>> origin/master
 use PHPStan\PhpDocParser\Ast\Type\ArrayTypeNode;
 use PHPStan\PhpDocParser\Ast\Type\CallableTypeNode;
 use PHPStan\PhpDocParser\Ast\Type\CallableTypeParameterNode;
@@ -230,12 +233,15 @@ final class Printer
 			$isOptional = $node->isOptional ? '=' : '';
 			return trim("{$type}{$isReference}{$isVariadic}{$node->parameterName}") . $isOptional;
 		}
+<<<<<<< HEAD
 		if ($node instanceof ArrayShapeUnsealedTypeNode) {
 			if ($node->keyType !== null) {
 				return sprintf('<%s, %s>', $this->printType($node->keyType), $this->printType($node->valueType));
 			}
 			return sprintf('<%s>', $this->printType($node->valueType));
 		}
+=======
+>>>>>>> origin/master
 		if ($node instanceof DoctrineAnnotation) {
 			return (string) $node;
 		}
@@ -373,7 +379,11 @@ final class Printer
 			}, $node->items);
 
 			if (! $node->sealed) {
+<<<<<<< HEAD
 				$items[] = '...' . ($node->unsealedType === null ? '' : $this->print($node->unsealedType));
+=======
+				$items[] = '...';
+>>>>>>> origin/master
 			}
 
 			return $node->kind . '{' . implode(', ', $items) . '}';

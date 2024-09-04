@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<<<<<<< HEAD
     <title>Welcome Page</title>
+=======
+    <title>Clark - Free Bootstrap 4 Template by Colorlib</title>
+>>>>>>> origin/master
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -12,7 +16,11 @@
     
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="css/magnific-popup.css">		
+=======
+    <link rel="stylesheet" href="css/magnific-popup.css">
+>>>>>>> origin/master
 
     <link rel="stylesheet" href="css/aos.css">
 
@@ -27,7 +35,11 @@
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
+<<<<<<< HEAD
 	      <a class="navbar-brand" href="index.html">Portfolio</a>
+=======
+	      <a class="navbar-brand" href="index.html">Portfolio.</a>
+>>>>>>> origin/master
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -37,7 +49,10 @@
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Content</span></a></li>
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 	        </ul>
 	      </div>
 	    </div>
@@ -48,6 +63,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+<<<<<<< HEAD
 	          	<div class="one-third js-fullheight order-md-last img">
 	          		<div class="overlay"></div>
 	          	</div>
@@ -57,6 +73,16 @@
 			            <h1 class="mb-4 mt-3">I'm <span>Althea M. <br> Casimiro</span></h1>
 			            <h2 class="mb-4">A BS Information Technology student</h2>
 	
+=======
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Althea Casimiro</span></h1>
+			            <h2 class="mb-4">A BS Information Technology student</h2>
+>>>>>>> origin/master
 		            </div>
 		          </div>
 	        	</div>
@@ -67,6 +93,7 @@
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+<<<<<<< HEAD
 	          	<div class="one-third js-fullheight order-md-last img">
 	          		<div class="overlay"></div>
 	          	</div>
@@ -74,12 +101,22 @@
 		          	<div class="text1">
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I am<span> currently <br> enrolled</span> at Bicol <br> University</h1>
+=======
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I am <span>currently enrolled</span> in Bicol University</h1>
+>>>>>>> origin/master
 		            </div>
 		          </div>
 	        	</div>
 	        </div>
 	      </div>
 	    </div>
+<<<<<<< HEAD
     </section>
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
@@ -214,3 +251,6 @@
     
   </body>
 </html>
+=======
+    </section>
+>>>>>>> origin/master

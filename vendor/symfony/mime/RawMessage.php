@@ -21,7 +21,11 @@ class RawMessage
     private bool $isGeneratorClosed;
 
     /**
+<<<<<<< HEAD
      * @param iterable<string>|string|resource $message
+=======
+     * @param iterable|string|resource $message
+>>>>>>> origin/master
      */
     public function __construct(
         private $message,

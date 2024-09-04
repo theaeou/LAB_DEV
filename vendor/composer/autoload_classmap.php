@@ -856,7 +856,10 @@ return array(
     'Fidry\\CpuCoreCounter\\Finder\\CpuCoreFinder' => $vendorDir . '/fidry/cpu-core-counter/src/Finder/CpuCoreFinder.php',
     'Fidry\\CpuCoreCounter\\Finder\\CpuInfoFinder' => $vendorDir . '/fidry/cpu-core-counter/src/Finder/CpuInfoFinder.php',
     'Fidry\\CpuCoreCounter\\Finder\\DummyCpuCoreFinder' => $vendorDir . '/fidry/cpu-core-counter/src/Finder/DummyCpuCoreFinder.php',
+<<<<<<< HEAD
     'Fidry\\CpuCoreCounter\\Finder\\EnvVariableFinder' => $vendorDir . '/fidry/cpu-core-counter/src/Finder/EnvVariableFinder.php',
+=======
+>>>>>>> origin/master
     'Fidry\\CpuCoreCounter\\Finder\\FinderRegistry' => $vendorDir . '/fidry/cpu-core-counter/src/Finder/FinderRegistry.php',
     'Fidry\\CpuCoreCounter\\Finder\\HwLogicalFinder' => $vendorDir . '/fidry/cpu-core-counter/src/Finder/HwLogicalFinder.php',
     'Fidry\\CpuCoreCounter\\Finder\\HwPhysicalFinder' => $vendorDir . '/fidry/cpu-core-counter/src/Finder/HwPhysicalFinder.php',
@@ -874,7 +877,10 @@ return array(
     'Fidry\\CpuCoreCounter\\Finder\\WmicPhysicalFinder' => $vendorDir . '/fidry/cpu-core-counter/src/Finder/WmicPhysicalFinder.php',
     'Fidry\\CpuCoreCounter\\Finder\\_NProcessorFinder' => $vendorDir . '/fidry/cpu-core-counter/src/Finder/_NProcessorFinder.php',
     'Fidry\\CpuCoreCounter\\NumberOfCpuCoreNotFound' => $vendorDir . '/fidry/cpu-core-counter/src/NumberOfCpuCoreNotFound.php',
+<<<<<<< HEAD
     'Fidry\\CpuCoreCounter\\ParallelisationResult' => $vendorDir . '/fidry/cpu-core-counter/src/ParallelisationResult.php',
+=======
+>>>>>>> origin/master
     'Fruitcake\\Cors\\CorsService' => $vendorDir . '/fruitcake/php-cors/src/CorsService.php',
     'Fruitcake\\Cors\\Exceptions\\InvalidOptionException' => $vendorDir . '/fruitcake/php-cors/src/Exceptions/InvalidOptionException.php',
     'GrahamCampbell\\ResultType\\Error' => $vendorDir . '/graham-campbell/result-type/src/Error.php',
@@ -3151,7 +3157,10 @@ return array(
     'PHPStan\\PhpDocParser\\Ast\\PhpDoc\\VarTagValueNode' => $vendorDir . '/phpstan/phpdoc-parser/src/Ast/PhpDoc/VarTagValueNode.php',
     'PHPStan\\PhpDocParser\\Ast\\Type\\ArrayShapeItemNode' => $vendorDir . '/phpstan/phpdoc-parser/src/Ast/Type/ArrayShapeItemNode.php',
     'PHPStan\\PhpDocParser\\Ast\\Type\\ArrayShapeNode' => $vendorDir . '/phpstan/phpdoc-parser/src/Ast/Type/ArrayShapeNode.php',
+<<<<<<< HEAD
     'PHPStan\\PhpDocParser\\Ast\\Type\\ArrayShapeUnsealedTypeNode' => $vendorDir . '/phpstan/phpdoc-parser/src/Ast/Type/ArrayShapeUnsealedTypeNode.php',
+=======
+>>>>>>> origin/master
     'PHPStan\\PhpDocParser\\Ast\\Type\\ArrayTypeNode' => $vendorDir . '/phpstan/phpdoc-parser/src/Ast/Type/ArrayTypeNode.php',
     'PHPStan\\PhpDocParser\\Ast\\Type\\CallableTypeNode' => $vendorDir . '/phpstan/phpdoc-parser/src/Ast/Type/CallableTypeNode.php',
     'PHPStan\\PhpDocParser\\Ast\\Type\\CallableTypeParameterNode' => $vendorDir . '/phpstan/phpdoc-parser/src/Ast/Type/CallableTypeParameterNode.php',
@@ -6211,9 +6220,13 @@ return array(
     'Termwind\\ValueObjects\\Node' => $vendorDir . '/nunomaduro/termwind/src/ValueObjects/Node.php',
     'Termwind\\ValueObjects\\Style' => $vendorDir . '/nunomaduro/termwind/src/ValueObjects/Style.php',
     'Termwind\\ValueObjects\\Styles' => $vendorDir . '/nunomaduro/termwind/src/ValueObjects/Styles.php',
+<<<<<<< HEAD
     'Tests\\Feature\\ExampleTest' => $baseDir . '/tests/Feature/ExampleTest.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
     'Tests\\Unit\\ExampleTest' => $baseDir . '/tests/Unit/ExampleTest.php',
+=======
+    'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
+>>>>>>> origin/master
     'TheSeer\\Tokenizer\\Exception' => $vendorDir . '/theseer/tokenizer/src/Exception.php',
     'TheSeer\\Tokenizer\\NamespaceUri' => $vendorDir . '/theseer/tokenizer/src/NamespaceUri.php',
     'TheSeer\\Tokenizer\\NamespaceUriException' => $vendorDir . '/theseer/tokenizer/src/NamespaceUriException.php',

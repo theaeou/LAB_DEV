@@ -16,10 +16,13 @@ use Fidry\CpuCoreCounter\Finder\DummyCpuCoreFinder;
 
 $counter = new CpuCoreCounter();
 
+<<<<<<< HEAD
 // For knowing the number of cores you can use for launching parallel processes:
 $counter->getAvailableForParallelisation()->availableCpus;
 
 // Get the number of CPU cores (by default it will use the logical cores count):
+=======
+>>>>>>> origin/master
 try {
     $counter->getCount();   // e.g. 8
 } catch (NumberOfCpuCoreNotFound) {
@@ -33,10 +36,13 @@ $counter = new CpuCoreCounter([
     new DummyCpuCoreFinder(1),  // Fallback value
 ]);
 
+<<<<<<< HEAD
 // A type-safe alternative form:
 $counter->getCountWithFallback(1);
 
 // Note that the result is memoized.
+=======
+>>>>>>> origin/master
 $counter->getCount();   // e.g. 8
 
 ```
@@ -76,17 +82,26 @@ $cores = (new CpuCoreCounter($finders))->getCount();
 `FinderRegistry` provides two helpful entries:
 
 - `::getDefaultLogicalFinders()`: gives an ordered list of finders that will
+<<<<<<< HEAD
   look for the _logical_ CPU cores count.
 - `::getDefaultPhysicalFinders()`: gives an ordered list of finders that will
   look for the _physical_ CPU cores count.
 
 By default, when using `CpuCoreCounter`, it will use the logical finders since
+=======
+  look for the _logical_ CPU cores count
+- `::getDefaultPhysicalFinders()`: gives an ordered list of finders that will
+  look for the _physical_ CPU cores count
+
+By default when using `CpuCoreCounter`, it will use the logical finders since
+>>>>>>> origin/master
 it is more likely what you are looking for and is what is used by PHP source to
 build the PHP binary.
 
 
 ### Checks what finders find what on your system
 
+<<<<<<< HEAD
 You have three scrips available that provides insight about what the finders
 can find:
 
@@ -116,6 +131,21 @@ You have 3 methods available to help you find out what happened:
 3. If what you are interested in is how the calculation of CPU cores available
    for parallelisation was done, you can inspect the values of `ParallelisationResult`
    returned by `CpuCoreCounter::getAvailableForParallelisation()`.
+=======
+You have two commands available that provides insight about what the finders
+can find:
+
+```
+$ make diagnose                                     # From this repository
+$ ./vendor/fidry/cpu-core-counter/bin/diagnose.php  # From the library
+```
+
+And:
+```
+$ make execute                                     # From this repository
+$ ./vendor/fidry/cpu-core-counter/bin/execute.php  # From the library
+```
+>>>>>>> origin/master
 
 
 ## Backward Compatibility Promise (BCP)

@@ -716,6 +716,7 @@ class Inline
                     case Parser::preg_match('/^(-|\+)?[0-9][0-9_]*(\.[0-9_]+)?$/', $scalar):
                         return (float) str_replace('_', '', $scalar);
                     case Parser::preg_match(self::getTimestampRegex(), $scalar):
+<<<<<<< HEAD
                         try {
                             // When no timezone is provided in the parsed date, YAML spec says we must assume UTC.
                             $time = new \DateTimeImmutable($scalar, new \DateTimeZone('UTC'));
@@ -723,6 +724,10 @@ class Inline
                             // Some dates accepted by the regex are not valid dates.
                             throw new ParseException(\sprintf('The date "%s" could not be parsed as it is an invalid date.', $scalar), self::$parsedLineNumber + 1, $scalar, self::$parsedFilename, $e);
                         }
+=======
+                        // When no timezone is provided in the parsed date, YAML spec says we must assume UTC.
+                        $time = new \DateTimeImmutable($scalar, new \DateTimeZone('UTC'));
+>>>>>>> origin/master
 
                         if (Yaml::PARSE_DATETIME & $flags) {
                             return $time;

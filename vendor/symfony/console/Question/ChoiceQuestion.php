@@ -25,14 +25,24 @@ class ChoiceQuestion extends Question
     private string $errorMessage = 'Value "%s" is invalid';
 
     /**
+<<<<<<< HEAD
      * @param string                     $question The question to ask to the user
      * @param array                      $choices  The list of available choices
      * @param string|bool|int|float|null $default  The default answer to return
+=======
+     * @param string $question The question to ask to the user
+     * @param array  $choices  The list of available choices
+     * @param mixed  $default  The default answer to return
+>>>>>>> origin/master
      */
     public function __construct(
         string $question,
         private array $choices,
+<<<<<<< HEAD
         string|bool|int|float|null $default = null,
+=======
+        mixed $default = null,
+>>>>>>> origin/master
     ) {
         if (!$choices) {
             throw new \LogicException('Choice question must have at least 1 choice available.');

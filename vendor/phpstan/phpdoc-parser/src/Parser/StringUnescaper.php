@@ -2,7 +2,10 @@
 
 namespace PHPStan\PhpDocParser\Parser;
 
+<<<<<<< HEAD
 use PHPStan\ShouldNotHappenException;
+=======
+>>>>>>> origin/master
 use function chr;
 use function hexdec;
 use function octdec;
@@ -57,9 +60,12 @@ class StringUnescaper
 					return chr((int) hexdec(substr($str, 1)));
 				}
 				if ($str[0] === 'u') {
+<<<<<<< HEAD
 					if (!isset($matches[2])) {
 						throw new ShouldNotHappenException();
 					}
+=======
+>>>>>>> origin/master
 					return self::codePointToUtf8((int) hexdec($matches[2]));
 				}
 

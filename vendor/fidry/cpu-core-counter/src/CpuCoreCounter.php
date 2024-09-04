@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Fidry\CpuCoreCounter;
 
 use Fidry\CpuCoreCounter\Finder\CpuCoreFinder;
+<<<<<<< HEAD
 use Fidry\CpuCoreCounter\Finder\EnvVariableFinder;
 use Fidry\CpuCoreCounter\Finder\FinderRegistry;
 use InvalidArgumentException;
@@ -22,6 +23,9 @@ use function max;
 use function sprintf;
 use function sys_getloadavg;
 use const PHP_EOL;
+=======
+use Fidry\CpuCoreCounter\Finder\FinderRegistry;
+>>>>>>> origin/master
 
 final class CpuCoreCounter
 {
@@ -44,6 +48,7 @@ final class CpuCoreCounter
     }
 
     /**
+<<<<<<< HEAD
      * @param positive-int|0    $reservedCpus      Number of CPUs to reserve. This is useful when you want
      *                                             to reserve some CPUs for other processes. If the main
      *                                             process is going to be busy still, you may want to set
@@ -127,6 +132,8 @@ final class CpuCoreCounter
     }
 
     /**
+=======
+>>>>>>> origin/master
      * @throws NumberOfCpuCoreNotFound
      *
      * @return positive-int
@@ -142,6 +149,7 @@ final class CpuCoreCounter
     }
 
     /**
+<<<<<<< HEAD
      * @param positive-int $fallback
      *
      * @return positive-int
@@ -184,6 +192,8 @@ final class CpuCoreCounter
     }
 
     /**
+=======
+>>>>>>> origin/master
      * @throws NumberOfCpuCoreNotFound
      *
      * @return positive-int
@@ -218,6 +228,7 @@ final class CpuCoreCounter
 
         throw NumberOfCpuCoreNotFound::create();
     }
+<<<<<<< HEAD
 
     /**
      * @return positive-int|null
@@ -265,4 +276,6 @@ final class CpuCoreCounter
             );
         }
     }
+=======
+>>>>>>> origin/master
 }

@@ -49,12 +49,19 @@ final class CpuInfoFinder implements CpuCoreFinder
         }
 
         return sprintf(
+<<<<<<< HEAD
             'Found the file "%s" with the content:%s%s%sWill return "%s".',
             self::CPU_INFO_PATH,
             PHP_EOL,
             $cpuInfo,
             PHP_EOL,
             self::countCpuCores($cpuInfo)
+=======
+            'Found the file "%s" with the content:%s%s',
+            self::CPU_INFO_PATH,
+            PHP_EOL,
+            $cpuInfo
+>>>>>>> origin/master
         );
     }
 
